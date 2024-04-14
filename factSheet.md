@@ -10,6 +10,7 @@
 - inhibits DNA synthesis by binding to PCNA (Proliferating cell nuclear agent)
 - Under transcriptional control by p53
 - Induction of ~ results in CDK inhibition and cell cycle arrest, preventing replication of damaged DNA
+- Rhytmic expression, downregulated by ROR and Rev-erb (abolished in Bmal1-deficient mice)
 
 ## p27
 ### aka Cip2
@@ -19,7 +20,6 @@
 
 ## p57
 ### aka Kip2
-
 
 
 # Cyclin dependent kinases
@@ -111,6 +111,7 @@
 ## p16
 ### aka INK4a
 
+- Rhytmic binding and activation regulated by Per (through NONO)
 
 ## p18
 ### aka INK4c
@@ -155,6 +156,12 @@
 - Transcription induced by p53
 - p53 activates ~ genes to induce cell death in case of severe damage
 
+## BMAL1 - Brain and Muscle ARNT-like 1
+
+- Together with CLOCK regulate Per and Cry expression
+- Expression activated by ROR, repressed by Rev-erb
+- Rhytmically phosphorylated by CK2 alpha
+
 ## Bub - Budding uninhibited by benomyl
 
 - Activated when microtubule attachment defects are detected
@@ -178,6 +185,33 @@
 
 - Activated during DNA damage induced by ATM
 - Phosphorylates Cdc25
+
+## CK1 epsilon - Caseine Kinase 1 epsilon
+
+- Phosphorylates Cry and BMAL1
+- Phosphorylation of BMAL1 positively regulates its transcriptional activity
+- Phosphorylates PER to regulate subcellular localization and degradation (with ~ delta)
+
+## CK2 alpha - Caseine Kinase 2 alpha
+
+- Rhytmically phosphorylates BMAL1, determining rhytmic accumulation of CLOCK/BMAL1 in nucleus
+
+## CLOCK - Circadian Locomotor Output Cycles Kaput
+
+- Together with BMAL1 regulate Per and Cry expression
+
+## CLOCK/BMAL1 complex
+
+- Controls expression of nuclear receptors ROR and Rev-erb
+- Rhytmic accumulation in nucleus determined by CK2 alpha
+- Directly regulates Wee1
+
+## Cry - Cryptochrome
+
+- Regulated by CLOCK and BMAL1
+- Forms complex with Per
+- mRNA expression repressed by Per/Cry
+- Protected from degradation in the nucleus, while destabilized in the cytoplasm (FBXL)
 
 ## DNA damage
 
@@ -253,12 +287,41 @@
 - During G2 cell arrest can be initiated in presence or absence of ~
 - May play part in G2/M regulation, increase of ~ results of increased p21 and 14-3-3 sigma activity
 - Mediates CycB/Cdk1 dissociation through Gadd45
+- stabilized by Per from Mdm2-mediated ubiqitination and degradation
+- transcriptional activity inactivated by Per
+
+## Per - Period 1,2,3
+
+- Regulated by CLOCK and BMAL1
+- Forms complex with Cry
+- mRNA expression repressed by Per/Cry
+- Per 2 has over 21 phosphorylated residues, regulating half-life, localization and circadian period
+- Phosphorylated by CK1, causes ubiquitination by E3 ubiquitin ligase complex
+- Interacts with NONO to regulate binding and activation of p16
+- Interacts with ATM and Chk2, overexpression leads to reduction in cell growth and increased susceptibility for DNA-damage-induced apoptosis
+- stabilizes p53 from Mdm2-mediated ubiqitination and degradation
+- inactivation of p53 transcriptional activity
+
+## Per/Cry complex
+
+- Directly inhibit CLOCK and BMAL1 transcriptional activity
+- Represses mRNA expression of Cry and Per, resulting in a time-delayed negative feedback
 
 ## pRb - Product of the retinoblasma tumour suppressor gene
 
 - Phosphorylated by CycD/Cdk4-6 during early G1.
 - Phosphorylation disrupts complex with HDAC, releasing E2F-1 and DP-1
 - Remains phosphorylated for the rest of the cell cycle, maintained by CycE/Cdk2
+
+## Rev-erb
+
+- Its proteins repress expression of BMAL1
+- Antagonistically regulates the rhytmic expression of p21
+
+## ROR - Retionic acid-related Orphan receptors
+
+- Its proteins activate expression of BMAL1
+- Antagonistically regulates the rhytmic expression of p21
 
 ## Spindle checkpoint
 
@@ -269,3 +332,5 @@
 - Phosphorylates Cdk1 to deactivate it
 - Located in nucleus
 - Protects cell from premature mitosis
+- Directly regulated by CLOCK/BMAL1
+- Rhytmic gene expression and activity, abolished in Cry-deficient mice
